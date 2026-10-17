@@ -42,6 +42,15 @@ The platform was designed to:
 
 ---
 
+## System Block Diagram
+
+<img width="1328" height="803" alt="image" src="https://github.com/user-attachments/assets/fd3fd113-7c87-46ec-ae7a-403fef3b6b8d" />
+
+
+High-level architecture of the educational robot platform based on an Arduino Mega microcontroller.
+
+---
+
 ## System Architecture
 
 The platform was designed around an Arduino Mega microcontroller, selected for its large number of GPIO pins, multiple communication interfaces, and suitability for integrating numerous sensors and peripherals on a single educational platform.
@@ -60,6 +69,33 @@ Students would be able to develop software that interacts with multiple onboard 
 - Autonomous navigation
 - Line following
 - Human-machine interaction
+
+---
+
+## Hardware Design
+
+The hardware platform integrates sensing, communication, control and power management functions on a custom-designed PCB.
+
+### Schematic Design
+
+<img width="1328" height="874" alt="image" src="https://github.com/user-attachments/assets/46f345a8-e362-4aa0-a700-6f84654b8443" />
+
+
+High-level schematic showing the integration of sensors, communication modules, motor drivers and the Arduino Mega controller.
+
+### PCB Layout
+
+<img width="825" height="436" alt="image" src="https://github.com/user-attachments/assets/582116d8-ea2d-495e-a566-0cfd3b6fdd4e" />
+
+
+Custom PCB designed to integrate sensors, motor drivers, communication modules and supporting circuitry.
+
+### 3D PCB Visualization
+
+<img width="820" height="434" alt="image" src="https://github.com/user-attachments/assets/591b1c48-a36b-447f-a8c9-32c99a3ea794" />
+
+
+3D rendering of the PCB used to verify component placement and mechanical integration before manufacturing.
 
 ---
 
